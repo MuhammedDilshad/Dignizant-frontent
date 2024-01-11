@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Axios } from "../api/axiosInstance";
 import { toast } from "react-toastify";
-import { question2, question3, options2 } from "./Questions";
+import { question2, question3, options2 } from "./Helper.js";
 import CheckboxComponent from "./Checkbox";
 import SubmitButton from "./SubmitButton";
 import QuizHeader from "./QuizHeader";
